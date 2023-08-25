@@ -1,0 +1,100 @@
+* {
+  margin: 0px;
+  padding: 0px;
+}
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: whitesmoke;
+}
+header {
+  background-color: rgba(63, 62, 105, 0.928);
+  height: 70px;
+  width: %100;
+}
+nav {
+  float: right;
+  margin-right: 20px;
+  margin-top: 25px;
+}
+nav li {
+  display: inline-block;
+}
+nav a {
+  font-size: 13px;
+  background-color: rgb(131, 33, 33);
+  background-image: linear-gradient(to right, rgb(16, 33, 80) red);
+  color: white;
+  padding: 23px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  text-decoration: none;
+  border-bottom-right-radius: 25px;
+  border-top-left-radius: 25px;
+  margin: 10px;
+}
+.container {
+  display: inline-block;
+  float: left;
+  margin-inline: 30px;
+  margin-top: 30px;
+}
+.box {
+  display: inline-block;
+  background-color: rgb(49, 47, 47);
+  color: white;
+  width: 250px;
+  height: 150px;
+  margin: 10px;
+  margin-top: 15px;
+  padding: 15px;
+}
+.box h3 {
+  margin-top: 15px;
+}
+.box a {
+  list-style-type: none;
+  text-decoration: none;
+  color: white;
+  padding: 0px;
+  margin: 0px;
+}
+.box ul {
+  margin-top: 15px;
+}
+.box li {
+  padding: 5px;
+}
+.box a:hover {
+  color: red;
+}
+.main-content {
+  display: inline-block;
+  height: 330px;
+  width: 900px;
+  border: 5px solid rgb(105, 36, 36);
+  background-color: rgb(229, 195, 201);
+  border-bottom: 10px solid rgb(105, 36, 36);
+  border-bottom-style: groove;
+  margin-top: 80px;
+}
+.main-content p,
+h2 {
+  padding-left: 10px;
+  padding-right: 40px;
+}
+
+.footer {
+  font-size: 20px;
+  color: white;
+  background-color: rgb(22, 4, 4);
+  text-align: center;
+  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  width: 2000px;
+}
+
+p {
+  font-size: 12px;
+  font-weight: bold;
+}
